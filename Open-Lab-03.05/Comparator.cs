@@ -6,6 +6,7 @@ namespace Open_Lab_03._05
     {
         public bool MatchCaseInsensitive(string str1, string str2)
         {
+            return str1.ToLower() == str2.ToLower();
             throw new NotImplementedException();
         }
     }
